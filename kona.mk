@@ -412,6 +412,10 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_DEXPREOPT_SPEED_APPS += \
     SystemUI
 
+# Perf
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.2.vendor
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
